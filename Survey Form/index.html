@@ -1,0 +1,87 @@
+<link rel="stylesheet" href="styles.css">
+
+<h1 id="title">Are a fan of Women in Sports?</h1>
+<p id="description">Thank you for taking the time to support womens sports.</p>
+
+<form id="survey-form">
+
+  <div>
+ <label id="name-label"placeholder="Name">
+   Name<input placeholder="John Flowers"id="name" 
+ type="name" 
+ required>
+ </label>
+</div>
+
+<div>
+  <label id="email-label">
+    Email<input placeholder="johnflow@gmail.com"id="email" 
+    type="email" 
+    required></label>
+</div>
+
+<div>
+  <label id="number-label">Age (Optional)</label>
+    <input placeholder="#" id="number" 
+    type="number" 
+    min="10" max="100" 
+    required>
+    </label>
+    </div>
+
+<div>
+  <label id="select-label">Who's your favorite female athlete?</label>
+    <select id="dropdown">
+      <option>Sylvia Fowles</option>
+      <option>Serena Williams</option>
+      <option>Coco Gauff</option>
+      <option>Elena Delle Donne</option>
+    </select>
+    </div>
+
+    <div>
+      <label>How many women's games have you been to?</label>
+
+      <div>
+      <label>
+<input type="radio" value="0" name="game">0</label>
+</div>
+
+<div>
+<label>
+<input type="radio" value="3" name="game">3</label>
+</div>
+
+<div>
+<label>
+<input type="radio" value="5+" name="game">5+</label>
+</div>
+      </div>
+
+     
+        <label>If you were given free tickets to a WNBA game would you attend?</label>
+        <div>
+      <label>
+<input type="checkbox" value="Yes" name="free tickets">Yes</label>
+</div>
+
+<div>
+<label>
+<input type="checkbox" value="No" name="free tickets">No</label>
+</div>
+
+<div>
+<label>
+<input type="checkbox" value="Maybe" name="free tickets">Maybe</label>
+</div>
+
+<div>
+<label>Any additional comments here:</label>
+</div>
+
+<textarea input type="text" placeholder="Comments"></textarea>
+
+<button type="submit"  id="submit">
+  Submit
+  </button>
+</form>
